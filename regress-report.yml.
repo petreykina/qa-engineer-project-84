@@ -94,16 +94,16 @@ test-cases:
 
 bugreports:
   - summary: |
-     Не отображается рейтинг в катологе товара в соответствии с ТЗ 
-  environment: |
-     Firefox 121.0 (64-разрядный)
-     ОС Windows
-  steps-to-reproduce: |
-     1. Открыть католог интернет-магазина https://hexlet-products-store.vercel.app/
-  expected-result: |
-     В описании товара указан его рейтинг
-  actual-result: |
-     В описании товара не указан его рейтинг
+      Не отображается рейтинг в катологе товара в соответствии с ТЗ 
+    environment: |
+      Firefox 121.0 (64-разрядный)
+      ОС Windows
+    steps-to-reproduce: |
+      1. Открыть католог интернет-магазина https://hexlet-products-store.vercel.app/
+    expected-result: |
+      В описании товара указан его рейтинг
+    actual-result: |
+      В описании товара не указан его рейтинг
 
   - summary: |
       Опечатка в диалоговом окне при оформлении товара
