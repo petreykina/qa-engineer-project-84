@@ -35,19 +35,19 @@
     Проверка на мультиязычность (русский и английский)
   status: pass
 
- - summary: |
+- summary: |
     Переход на страницу товара
   status: pass
   
- - summary: |
+- summary: |
     Фильтр по тегу со страницы товара
   status: fail
   
-  - summary: |
+- summary: |
     Просмотр картинок на странице товара
   status: fail
 
-  - summary: |
+- summary: |
     Добавление товара в корзину со страницы одного из товаров
    status: pass
 
