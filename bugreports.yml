@@ -1,9 +1,9 @@
 ---
 - summary: |
-    Не отображается рейтинг в катологе товара в соответствии с ТЗ 
+    Не отображается рейтинг в катологе товара
   environment: |
     Firefox 121.0 (64-разрядный)
-    ОС Windows
+    ОС Windows 10 Корпоративная
   steps-to-reproduce: |
     1. Открыть католог интернет-магазина https://hexlet-products-store.vercel.app/
   expected-result: |
@@ -15,20 +15,20 @@
     Отображается кнопка "Предыдущая" даже при нахождении на первой странице перечня товаров 
   environment: |
     Firefox 121.0 (64-разрядный)
-    ОС Windows
+    ОС Windows 10 Корпоративная
   steps-to-reproduce: |
     1. Открыть католог интернет-магазина https://hexlet-products-store.vercel.app/
     2. При необходимости нажать несколько раз на кнопку "Предыдущая" для перехода на первую страницу каталога
   expected-result: |
     Не отображается кнопка "Предыдущая"
   actual-result: |
-    Отображается кнопка "Предыдущая"
+    Отображается кнопка "Предыдущая". https://github.com/petreykina/qa-engineer-project-84/blob/main/images2/%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B0%D1%8F.png
 
 - summary: |
     Отображается кнопка "Следующая" даже при нахождении на последней странице перечня товаров 
   environment: |
     Firefox 121.0 (64-разрядный)
-    ОС Windows
+    ОС Windows 10 Корпоративная
   steps-to-reproduce: |
     1. Открыть католог интернет-магазина https://hexlet-products-store.vercel.app/
     2. При необходимости нажать несколько раз на кнопку "Следующая" для перехода на последнюю страницу каталога
@@ -41,7 +41,7 @@
     Не меняются картинки на странице товара
   environment: |
     Firefox 121.0 (64-разрядный)
-    ОС Windows
+    ОС Windows 10 Корпоративная
   steps-to-reproduce: |
     1. Открыть католог интернет-магазина https://hexlet-products-store.vercel.app/
     2. Нажать на поле товара для перехода на страницу товара
@@ -55,7 +55,7 @@
     Не фильтруются товары по тегу на странице товара
   environment: |
     Firefox 121.0 (64-разрядный)
-    ОС Windows
+    ОС Windows 10 Корпоративная
   steps-to-reproduce: |
     1. Открыть католог интернет-магазина https://hexlet-products-store.vercel.app/
     2. Нажать на поле товара для перехода на страницу товара
@@ -69,7 +69,7 @@
     Опечатка в диалоговом окне при оформлении товара
   environment: |
     Firefox 121.0 (64-разрядный)
-    ОС Windows
+    ОС Windows 10 Корпоративная
   steps-to-reproduce: |
     1. Открыть католог интернет-магазина https://hexlet-products-store.vercel.app/
     2. Нажать на кнопку "В корзину" для одного из товаров
