@@ -22,7 +22,8 @@
   expected-result: |
     Не отображается кнопка "Предыдущая"
   actual-result: |
-    Отображается кнопка "Предыдущая". https://github.com/petreykina/qa-engineer-project-84/blob/main/images2/%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B0%D1%8F.png
+    Отображается кнопка "Предыдущая". 
+    https://github.com/petreykina/qa-engineer-project-84/blob/main/images2/%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B0%D1%8F.png
 
 - summary: |
     Отображается кнопка "Следующая" даже при нахождении на последней странице перечня товаров 
@@ -35,7 +36,8 @@
   expected-result: |
     Не отображается кнопка "Следующая"
   actual-result: |
-    Отображается кнопка "Следующая"
+    Отображается кнопка "Следующая".
+    https://github.com/petreykina/qa-engineer-project-84/blob/main/images2/%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0_%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D1%8E%D1%89%D0%B0%D1%8F.png
 
 - summary: |
     Не меняются картинки на странице товара
