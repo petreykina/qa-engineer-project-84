@@ -61,11 +61,12 @@
   steps-to-reproduce: |
     1. Открыть католог интернет-магазина https://hexlet-products-store.vercel.app/
     2. Нажать на поле товара для перехода на страницу товара
-    3. Нажать на тег "# ..."
+    3. Нажать на тег "#smartphones"
   expected-result: |
     На странице отобразятся товары с соответствующим тегом
   actual-result: |
-    На странице не отображаются товары с соответствующим тегом
+    На странице не отображаются товары с тегом #smartphones
+    https://github.com/petreykina/qa-engineer-project-84/blob/main/images2/%D0%A2%D0%B5%D0%B3.png
 
 - summary: |
     Опечатка в диалоговом окне при оформлении товара
@@ -84,3 +85,15 @@
     https://github.com/petreykina/qa-engineer-project-84/blob/main/images2/%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0.png
 
 
+- summary: |
+    Не отображается картинка для кнопки смены языка
+  environment: |
+    Firefox 121.0 (64-разрядный)
+    ОС Windows 10 Корпоративная
+  steps-to-reproduce: |
+    1. В правом верхнем углу нажать на кнопку "Язык" выбрать "English"
+  expected-result: |
+    В раскрывающемся списке откроется "English" и "Russian" с соответствующими картинками
+  actual-result: |
+    В раскрывающемся списке для кнопки "English" не отображается картника
+    https://github.com/petreykina/qa-engineer-project-84/blob/main/images2/%D0%AF%D0%B7%D1%8B%D0%BA%D0%B8.png
